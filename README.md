@@ -75,7 +75,7 @@ npm start
 שכפול המאגר:
 
 ```bash
-git clone https://github.com/Tamar-Klein/FinalProject-React.git
+git clone https://github.com/Tamar-Klein/ReactFinalProject.git
 cd FinalProject-React
 ```
 
