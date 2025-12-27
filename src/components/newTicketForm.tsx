@@ -72,7 +72,7 @@ const NewTicketForm = () => {
                         <Avatar sx={{ m: 1, bgcolor: 'secondary.main', width: 60, height: 60 }}>
                             <PostAddIcon fontSize="large" />
                         </Avatar>
-                        <Typography variant="h4" sx={{ fontWeight: 'bold', mb: 3 }}>פתיחת קריאה חדשה</Typography>
+                        <Typography variant="h4" sx={{ fontWeight: 'bold', mb: 3 }}>פתיחת פניה חדשה</Typography>
 
                         <Box component="form" onSubmit={handleSubmit(onSubmit)} noValidate sx={{ width: '100%' }}>
                             <TextField

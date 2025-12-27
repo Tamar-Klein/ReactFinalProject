@@ -86,7 +86,7 @@ const AdminView = () => {
                                 sx={{ height: '100%', p: 2 }}
                             >
                                 <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-                                    <Box sx={{ p: 2.5, borderRadius: '50%', bgcolor: '#ecfdf5', color: '#10b981', mb: 3 }}>
+                                    <Box sx={{ p: 2.5, borderRadius: '50%', bgcolor: '#ecfdf5', color:  '#2563eb', mb: 3 }}>
                                         <PeopleIcon fontSize="large" />
                                     </Box>
                                     <Typography variant="h5" fontWeight="bold" gutterBottom>ניהול משתמשים</Typography>
@@ -94,7 +94,7 @@ const AdminView = () => {
                                         הוספת משתמשים חדשים, ניהול הרשאות וצפייה בלקוחות.
                                     </Typography>
                                     <Divider sx={{ width: '40%', my: 2 }} />
-                                    <Box sx={{ display: 'flex', alignItems: 'center', color: '#10b981', fontWeight: 'bold' }}>
+                                    <Box sx={{ display: 'flex', alignItems: 'center', color:  '#2563eb', fontWeight: 'bold' }}>
                                         <Typography variant="button">כניסה למודול</Typography>
                                         <ArrowBackIcon sx={{ ml: 1, fontSize: 18 }} />
                                     </Box>
@@ -118,7 +118,7 @@ const AdminView = () => {
                                 sx={{ height: '100%', p: 2 }}
                             >
                                 <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-                                    <Box sx={{ p: 2.5, borderRadius: '50%', bgcolor: '#fffbeb', color: '#f59e0b', mb: 3 }}>
+                                    <Box sx={{ p: 2.5, borderRadius: '50%', bgcolor: '#ecfdf5', color:  '#2563eb', mb: 3 }}>
                                         <CategoryIcon fontSize="large" />
                                     </Box>
                                     <Typography variant="h5" fontWeight="bold" gutterBottom>ניהול סטטוסים</Typography>
@@ -126,7 +126,7 @@ const AdminView = () => {
                                         הגדרה ועריכה של שלבי הטיפול (סטטוסים) במערכת.
                                     </Typography>
                                     <Divider sx={{ width: '40%', my: 2 }} />
-                                    <Box sx={{ display: 'flex', alignItems: 'center', color: '#f59e0b', fontWeight: 'bold' }}>
+                                    <Box sx={{ display: 'flex', alignItems: 'center', color:  '#2563eb', fontWeight: 'bold' }}>
                                         <Typography variant="button">כניסה למודול</Typography>
                                         <ArrowBackIcon sx={{ ml: 1, fontSize: 18 }} />
                                     </Box>

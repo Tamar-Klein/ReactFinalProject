@@ -94,7 +94,7 @@ const CustomerView = () => {
                             >
                                 <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
 
-                                    <Box sx={{ p: 2.5, borderRadius: '50%', bgcolor: '#ecfdf5', color: '#10b981', mb: 3 }}>
+                                    <Box sx={{ p: 2.5, borderRadius: '50%', bgcolor: '#eff6ff', color: '#2563eb', mb: 3 }}>
                                         <PostAddIcon sx={{ fontSize: 40 }} />
                                     </Box>
 
@@ -108,7 +108,7 @@ const CustomerView = () => {
 
                                     <Divider sx={{ width: '40%', my: 2 }} />
 
-                                    <Box sx={{ display: 'flex', alignItems: 'center', color: '#10b981', fontWeight: 'bold' }}>
+                                    <Box sx={{ display: 'flex', alignItems: 'center', color: '#2563eb', fontWeight: 'bold' }}>
                                         <Typography variant="button">צור פנייה</Typography>
                                         <ArrowBackIcon sx={{ ml: 1, fontSize: 18 }} />
                                     </Box>

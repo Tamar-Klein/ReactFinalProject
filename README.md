@@ -76,7 +76,6 @@ npm start
 
 ```bash
 git clone https://github.com/Tamar-Klein/ReactFinalProject.git
-cd FinalProject-React
 ```
 
 התקנת תלויות:

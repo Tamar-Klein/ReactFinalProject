@@ -59,6 +59,9 @@ const Header: React.FC = () => {
                                 <>
                                     {user?.role === "admin" && (
                                         <>
+                                        <Button component={Link} to="/dashboard" startIcon={<DashboardIcon />} sx={{ color: 'white', '&:hover': { bgcolor: '#2563eb'  } }}>
+                                                דשבורד
+                                            </Button>
                                             <Button component={Link} to="/dashboard/users" startIcon={<PeopleIcon />} sx={{ color: 'white', '&:hover': { bgcolor: 'rgba(255,255,255,0.1)' } }}>
                                                 משתמשים
                                             </Button>
